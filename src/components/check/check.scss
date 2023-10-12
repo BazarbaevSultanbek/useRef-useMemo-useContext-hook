@@ -1,0 +1,27 @@
+.Check{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Check-modul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+  box-shadow: 0 0 5px 0 silver;
+  padding:35px 125px;
+  p{
+    margin-top: 2px;
+  }
+  button{
+    margin-top: 15px;
+    background: transparent;
+    border: 1px solid black;
+    width: 125px;
+    height: 30px;
+    font-size: 18px;
+    color: grey;
+    border-radius: 5px;
+  }
+}

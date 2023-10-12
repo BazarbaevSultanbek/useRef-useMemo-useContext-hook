@@ -1,0 +1,28 @@
+.Selector{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+.Selector-in{
+  button{
+    margin-top: 20px;
+    border:1px solid black;
+    width: 200px;
+    height: 40px;
+    text-transform: uppercase;
+    background: transparent;
+    cursor: pointer;
+  }
+}
+.Selector-list{
+  li{
+    border:1px solid black;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    list-style: none;
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+}

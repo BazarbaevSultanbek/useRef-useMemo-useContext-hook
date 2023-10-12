@@ -1,0 +1,15 @@
+.Count{
+  display:flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 45px;
+  align-items: center;
+  button{
+    border: 1px solid black;
+    width: 70px;
+    height: 40px;
+    background: transparent;
+    cursor: pointer;
+    font-size: 15px;
+  }
+}

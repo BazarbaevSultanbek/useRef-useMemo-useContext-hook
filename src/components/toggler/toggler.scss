@@ -1,0 +1,147 @@
+.Toggler {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.Toggler-modul {
+  position: relative;
+  background: rgb(1, 20, 79);
+  width: 450px;
+  height: 70vh;
+  overflow: hidden;
+
+  button {
+    position: absolute;
+    bottom: 15px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 19px 7px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+}
+
+.Toggler-first {
+  position: absolute;
+  background: white;
+  border-radius: 20%;
+  width: 300px;
+  height: 300px;
+  left: 17%;
+  top: -500px;
+  box-shadow: 0 0 10px 0 silver;
+
+}
+
+.Toggler-second {
+  position: absolute;
+  background: purple;
+  border-radius: 20%;
+  width: 200px;
+  height: 200px;
+  top: 85px;
+  right: -500px;
+  box-shadow: 0 0 25px 0 purple;
+}
+
+.Toggler-third {
+  position: absolute;
+  background: deeppink;
+  border-radius: 25%;
+  width: 85px;
+  height: 85px;
+  top: 145px;
+  left: -500px;
+  box-shadow: 0 0 25px deeppink;
+
+}
+
+@keyframes first {
+  0% {
+    top: -500px;
+    transform: rotate(-720deg);
+  }
+  50% {
+    top: 35px;
+    transform: rotate(0deg);
+  }
+  100% {
+    top: 35px;
+    transform: rotate(0deg);
+  }
+}
+@keyframes firstBack {
+  0% {
+    top: 35px;
+    transform: rotate(0deg);
+  }
+  50% {
+    top: -500px;
+    transform: rotate(-720deg);
+  }
+  100% {
+    top: -500px;
+    transform: rotate(-720deg);
+  }
+}
+@keyframes second {
+  0% {
+    right: -500px;
+    transform: rotate(-720deg);
+  }
+  50% {
+    right: 120px;
+    transform: rotate(0deg);
+  }
+  100% {
+    right: 120px;
+    transform: rotate(0deg);
+  }
+}
+@keyframes secondBack {
+  0% {
+    right: 120px;
+    transform: rotate(0deg);
+  }
+  50% {
+    right: -500px;
+    transform: rotate(-720deg);
+  }
+  100% {
+    right: -500px;
+    transform: rotate(-720deg);
+  }
+}
+@keyframes third {
+  0% {
+    left: -500px;
+    transform: rotate(-720deg);
+  }
+  50% {
+    left: 190px;
+    transform: rotate(0deg);
+  }
+  100% {
+    left: 190px;
+    transform: rotate(0deg);
+  }
+}
+@keyframes thirdBack {
+  0% {
+    left: 190px;
+    transform: rotate(0deg);
+  }
+  50% {
+    left: -500px;
+    transform: rotate(-720deg);
+  }
+  100% {
+    left: -500px;
+    transform: rotate(-720deg);
+  }
+}

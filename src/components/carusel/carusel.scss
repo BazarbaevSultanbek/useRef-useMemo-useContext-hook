@@ -1,0 +1,47 @@
+.Carusel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:45px;
+}
+.Carusel-top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+ &-list{
+   position: relative;
+   overflow: hidden;
+   height: 30px;
+   width: 35px;
+   ul{
+     position: absolute;
+     list-style: none;
+     img{
+       width: 30px;
+       height: 30px;
+     }
+   }
+ }
+  p{
+    font-weight:600;
+  }
+}
+.Carusel-scroll{
+  height:200px;
+  overflow: scroll;
+  border: 3px  dashed black;
+  padding: 5px 15px 15px 15px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  &-item{
+    background: #c7c5c5;
+    width:200px;
+    text-align: center;
+    margin-top: 10px;
+    padding:25px 0;
+  }
+}
